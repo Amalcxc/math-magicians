@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Calculator extends Component {
   render() {
-    this.bar = 'Hello World';
+    this.hello = 'Hello World';
     return <div className='calculator'>
       <div className='input'>
         <input type="number" id="number" value="number" />
