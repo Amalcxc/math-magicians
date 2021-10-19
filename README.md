@@ -10,6 +10,7 @@ Math magicians is a website for all fans of mathematics. It is a Single Page App
 In the project directory, you can run:
 
 ```bash
+$ npm install
 $ npm start
 ```
 
