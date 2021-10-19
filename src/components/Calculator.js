@@ -32,6 +32,4 @@ class Calculator extends Component {
   }
 }
 
-console.log(React);
-
 export default Calculator;
