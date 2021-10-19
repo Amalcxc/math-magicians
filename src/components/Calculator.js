@@ -11,7 +11,7 @@ class Calculator extends Component {
         <button className='cal-style'>AC</button>
         <button className='cal-style'>+/-</button>
         <button className='cal-style'>%</button>
-        <button className='cal-style is-orange'>.-.</button>
+        <button className='cal-style is-orange'>÷</button>
         <button className='cal-style'>7</button>
         <button className='cal-style'>8</button>
         <button className='cal-style'>9</button>
