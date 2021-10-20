@@ -6,7 +6,7 @@
   margin-top: 40px;
 }
 
-.calculator input {
+.input {
   background: none;
   border: none;
   box-shadow: none;
@@ -14,7 +14,7 @@
   padding: 10px;
   width: 98%;
   border-bottom: 2px solid #111;
-  color: #333;
+  color: rgb(112, 111, 111);
   text-align: right;
   font-size: 40px;
   border-radius: 0;
@@ -41,4 +41,12 @@
 
 .is-orange {
   background-color: rgb(253 114 22 / 79%);
+}
+
+p {
+  text-align: right;
+  font-weight: 600;
+  font-size: 23px;
+  letter-spacing: 2px;
+  color: white;
 }
