@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Operate from '../logic/operate.js';
+import Calculate from '../logic/calculate.js';
 
 class Calculator extends Component {
   render() {
