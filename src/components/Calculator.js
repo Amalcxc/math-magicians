@@ -20,8 +20,8 @@ function Calculator() {
   }
 
   return <div className='container'>
-    <h4 className='cal-text'>Let's do Some Math!</h4>
-    <div className='calculator'>  
+    <h4 className='cal-text'>Lets do Some Math!</h4>
+    <div className='calculator'>
       <div className='input'>
       {input()}
       </div>

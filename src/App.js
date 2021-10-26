@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import calculator from './components/Calculator.js';
 import home from './components/home.js';
 import Nav from './components/nav.js';
 import quote from './components/Quote.js';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (

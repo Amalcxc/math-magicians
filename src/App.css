@@ -1,7 +1,7 @@
-.container{
+.container {
   display: flex;
   justify-content: space-around;
- }
+}
 
 .calculator {
   border: 2px solid #111;
@@ -76,12 +76,12 @@
   top: auto;
   left: 0%;
   margin: 21px;
-  font-size: xx-large
+  font-size: xx-large;
 }
 
 .home-text {
   font-family: sans-serif;
-  margin: 20px;
+  margin: 60px;
   font-size: medium;
   font-weight: bold;
 }
