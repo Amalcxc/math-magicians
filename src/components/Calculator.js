@@ -12,14 +12,16 @@ function Calculator() {
   function input() {
     const { total, next } = calTotal;
     if (next === null && total === null) {
-      return <p>0</p>;
+      return <p className='p-tag'>0</p>;
     } if (next === null) {
-      return <p>{total}</p>;
+      return <p className='p-tag'>{total}</p>;
     }
-    return <p>{next}</p>;
+    return <p className='p-tag'>{next}</p>;
   }
 
-  return <div className='calculator'>
+  return <div className='container'>
+    <h4 className='cal-text'>Lets do Some Math!</h4>
+    <div className='calculator'>
       <div className='input'>
       {input()}
       </div>
@@ -44,7 +46,8 @@ function Calculator() {
         <button name='.' type='button' className='cal-style' onClick={calculate}>.</button>
         <button name='=' type='button' className='cal-style is-orange' onClick={calculate}>=</button>
       </div>
-    </div>;
+    </div>
+   </div>;
 }
 
 export default Calculator;
