@@ -1,9 +1,18 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+ }
+
 .calculator {
-  max-width: 800px;
-  margin: 0 auto;
   border: 2px solid #111;
   border-radius: 5px;
   margin-top: 40px;
+  width: 60%;
+}
+
+.cal-text {
+  margin-top: 64px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .input {
@@ -12,7 +21,6 @@
   box-shadow: none;
   outline: none;
   padding: 10px;
-  width: 98%;
   border-bottom: 2px solid #111;
   color: rgb(112, 111, 111);
   text-align: right;
@@ -43,10 +51,44 @@
   background-color: rgb(253 114 22 / 79%);
 }
 
-p {
+.p-tag {
   text-align: right;
   font-weight: 600;
   font-size: 23px;
   letter-spacing: 2px;
   color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+  min-height: 10vh;
+  position: relative;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+}
+
+.logo {
+  position: absolute;
+  top: auto;
+  left: 0%;
+  margin: 21px;
+  font-size: xx-large
+}
+
+.home-text {
+  font-family: sans-serif;
+  margin: 20px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.quote {
+  margin: 15%;
+  text-align: center;
+  font-size: x-large;
+  font-family: sans-serif;
 }

@@ -2,19 +2,24 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 
 function Nav() {
-  return <div>
-    <ul>
+  const li = {
+    color: 'black',
+    margin: '21px'
+  }
+  return <nav className='nav'>
+    <ul className='ul'>
+     <h3 className='logo'>Math Magicians</h3>
       <Link to='/'>
-      <li>Home</li>
+      <li style={li}>Home</li>
       </Link>
       <Link to='/calculator'>
-      <li>Calculator</li>
+      <li style={li}>Calculator</li>
       </Link>
       <Link to='/quote'> 
-      <li>Quote</li>
+      <li style={li}>Quote</li>
       </Link>
     </ul>
-  </div>;
+  </nav>;
 }
 
 export default Nav;
