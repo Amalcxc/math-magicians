@@ -1,7 +1,6 @@
-import operate from '../operate'
+import operate from '../operate.js';
 
-describe( 'testing the operations', () => {
-  
+describe('testing the operations', () => {
   test('adds 1 + 2 to equal 3', () => {
     expect(operate(1, 2, '+')).toBe('3');
   });
@@ -17,6 +16,4 @@ describe( 'testing the operations', () => {
   test('division 10 ÷ 2 to equal 5', () => {
     expect(operate(10, 2, '÷')).toBe('5');
   });
-}
-)
-
+});
