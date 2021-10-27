@@ -48,13 +48,21 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - HTML5
 - react
 
-## Author
+## Authors
+
 
 👤 **Amal Hersi**
 
 - GitHub: [Amal Hersi](https://github.com/Amalcxc)
 - Twitter: [@Amalcx4](https://twitter.com/home?lang=en)
 - LinkedIn: [Amal Hersi](https://www.linkedin.com/in/amal-hersi-a29583205/)
+
+👤 **Ramiro Aquistapace**
+
+- GitHub: [@ramiaquista](https://github.com/ramiaquista)
+- Twitter: [@ramiaq1](https://twitter.com/ramiaq1)
+- LinkedIn: [RamiroAquistapace](https://www.linkedin.com/in/ramiro-aquistapace-32b61b204/)
+
 
 
 ## 🤝 Contributing
