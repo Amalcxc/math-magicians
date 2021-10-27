@@ -93,7 +93,6 @@ describe('negative Testing 5.5', () => {
   });
 });
 
-
 describe('negative Testing 5 + 10 = 15', () => {
   test('Pressing AC for the first time', () => {
     const res = calculate(emptyCalc, 'AC');

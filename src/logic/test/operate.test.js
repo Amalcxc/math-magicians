@@ -18,7 +18,6 @@ describe('testing the operations', () => {
   });
 });
 
-
 describe('negative testing the operations', () => {
   test('adds 1 + 2 not to equal 5', () => {
     expect(operate(1, 2, '+')).not.toBe('5');
