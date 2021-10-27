@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Calculator Component 1`] = `
+<h4
+  class="cal-text"
+>
+  Lets do Some Math!
+</h4>
+`;
