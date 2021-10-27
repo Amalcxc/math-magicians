@@ -4,6 +4,6 @@ import { render, screen } from '@testing-library/react';
 
 test('renders to home', () => {
   render(<Home />);
-  const linkElement = screen.getByText('Welcome to the Home');
-  expect(linkElement).toBeInTheDocument();
+  const homeText = screen.getByText('Welcome to the Home');
+  expect(homeText).toMatchSnapshot();
 });
